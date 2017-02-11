@@ -19,6 +19,7 @@
             android:name=".NewNoteActivity"
             android:label="@string/title_activity_new_note"
             android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateVisible"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
